@@ -1,0 +1,105 @@
+{
+    "Id": "1",
+    "Project":"{
+    \"id\": 1,
+    \"name\": {
+        \"$id\": \"2\",
+        \"en\": \"React/Redux with Spotify\",
+        \"fr\": \"React/Redux avec Spotify\"
+    },
+    \"description\": {
+        \"$id\": \"3\",
+        \"en\": \"Framework Exploration with Spotify API\",
+        \"fr\": \"Exploration ReaactJs avec API Spotify\"
+    },
+    \"role\": {
+        \"$id\": \"4\",
+        \"en\": \"Web Design, Development and Deployment\",
+        \"fr\": \"Web Design, Development and Deployment\"
+    },
+    \"tech\": {
+        \"$id\": \"5\",
+        \"en\": [
+            \"Amazon Web Services\",
+            \"React JS\",
+            \"Redux\",
+            \"Webpack\",
+            \"HTML 5\",
+            \"Responsive CSS\"
+        ],
+        \"fr\": [
+            \"Amazon Web Services\",
+            \"React JS\",
+            \"Redux\",
+            \"Webpack\",
+            \"HTML 5\",
+            \"Responsive CSS\"
+        ]
+    },
+    \"image\": {
+        \"$id\": \"6\",
+        \"en\": [
+            {
+                \"$id\": \"7\",
+                \"order\": 1,
+                \"s\": \"reactredux_spotify_sm.jpg\",
+                \"m\": \"reactredux_spotify_md.jpg\",
+                \"l\": \"reactredux_spotify_lg.jpg\",
+                \"xl\": null
+            }
+        ],
+        \"fr\": [
+            {
+                \"$id\": \"8\",
+                \"order\": 1,
+                \"s\": \"reactredux_spotify_sm.jpg\",
+                \"m\": \"reactredux_spotify_md.jpg\",
+                \"l\": \"reactredux_spotify_lg.jpg\",
+                \"xl\": null
+            }
+        ]
+    },
+    \"url\": {
+        \"$id\": \"9\",
+        \"en\": [
+            {
+                \"$id\": \"10\",
+                \"link\": \"http://reactredux.deluxeluxury.com/\",
+                \"text\": \"View Project\"
+            },
+            {
+                \"$id\": \"11\",
+                \"link\": \"https://github.com/SuperFastCola/tt-music-search/tree/master/app\",
+                \"text\": \"Essential Code\"
+            },
+            {
+                \"$id\": \"12\",
+                \"link\": \"https://github.com/SuperFastCola/tt-music-search/blob/master/app/sass/styles.scss\",
+                \"text\": \"Essential SASS\"
+            }
+        ],
+        \"fr\": [
+            {
+                \"$id\": \"13\",
+                \"link\": \"http://reactredux.deluxeluxury.com/\",
+                \"text\": \"Regardez le projet\"
+            },
+            {
+                \"$id\": \"14\",
+                \"link\": \"https://github.com/SuperFastCola/tt-music-search/tree/master/app\",
+                \"text\": \"Code essentiel\"
+            },
+            {
+                \"$id\": \"15\",
+                \"link\": \"https://github.com/SuperFastCola/tt-music-search/blob/master/app/sass/styles.scss\",
+                \"text\": \"SASS essentiel\"
+            }
+        ]
+    },
+    \"projid\": \"reactredux\",
+    \"type\": [
+        \"design\",
+        \"front-end\"
+    ]
+}"
+}

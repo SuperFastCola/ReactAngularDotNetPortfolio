@@ -1,0 +1,15 @@
+{
+    "HOME": "Accueil",
+    "EDIT": "Modifier",
+    "DELETE":"Supprimer",
+    "UPDATE":"Mettre à jour",
+    "EN":"Anglais",
+    "FR":"Français",
+    "FORM":{
+        "NAME":"Nom",
+        "DESCRIPTION":"Sommaire",
+        "ROLE":"Mandat",
+        "TYPE":"Type",
+        "LANGSUPPORT":"Texte de langue non requis"
+    }
+}

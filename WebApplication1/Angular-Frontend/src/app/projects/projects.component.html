@@ -1,0 +1,9 @@
+<section>
+    <div class="grid grid-cols-1 md:grid-cols-2 md:gap-4">
+        <app-project-summary  *ngFor="let project of projects.projects" [project]="project"></app-project-summary>
+
+        <h3 *ngIf="errorMessage">
+            {{errorMessage}}
+        </h3>
+    </div>
+</section>

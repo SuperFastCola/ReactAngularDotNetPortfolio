@@ -1,0 +1,30 @@
+<section>
+<label class="block mt-2 mb-1 font-medium">{{translatedLabel}}</label>
+
+<article class="grid grid-cols-1 md:grid-cols-2 md:gap-4" *ngIf="languageSpecific; else singleInput">
+    <ng-container *ngFor="let lang of languageKeys">
+        <div>
+            <input type="text"
+            [attr.class]="inputStyles" 
+            [attr.placeholder]="translatedLabel | titlecase" 
+            [(ngModel)]="intProps[propName][lang]"  [attr.name]="inputName[lang]"
+            (blur)="updateProps()"/>
+     
+            <label class="block text-xs mt-0.5 text-right text-gray-400">{{lang | uppercase | translate}}</label>
+        </div>
+    </ng-container>
+</article>
+
+    <ng-template #singleInput>
+    <div>
+        <input type="text"
+        [attr.class]="inputStyles" 
+        [attr.placeholder]="translatedLabel | titlecase" 
+        [(ngModel)]="intProps[propName]" [attr.name]="label | lowercase"
+        (blur)="updateProps()"/>
+ 
+    </div>
+</ng-template>
+</section>
+      
+                    

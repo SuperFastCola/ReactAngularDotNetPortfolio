@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial Test renders project 1`] = `
+<div
+  className="row"
+>
+  <div>
+    <a
+      className="btn btn-primary my-3"
+      href="/new"
+      onClick={[Function]}
+    >
+      New Project
+    </a>
+  </div>
+</div>
+`;

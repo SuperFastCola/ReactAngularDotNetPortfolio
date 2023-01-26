@@ -1,0 +1,396 @@
+{
+  "Types": [
+    {
+      "type": "all",
+      "en": "all",
+      "fr": "tous"
+    },
+    {
+      "type": "front-end",
+      "en": "front-end",
+      "fr": "front-end"
+    },
+    {
+      "type": "back-end",
+      "en": "back-end",
+      "fr": "back-end"
+    },
+    {
+      "type": "print",
+      "en": "print",
+      "fr": "imprim\u00E9"
+    },
+    {
+      "type": "design",
+      "en": "design",
+      "fr": "design"
+    },
+    {
+      "type": "illo",
+      "en": "illustration",
+      "fr": "illustration"
+    }
+  ],
+  "Contents": {
+    "en": [
+      {
+        "cssClass": "resume",
+        "Link": "http://portfolio.deluxeluxury.com/cv_anthony_baker.pdf",
+        "Text": "PDF Resume"
+      },
+      {
+        "cssClass": "github",
+        "Link": "https://github.com/SuperFastCola",
+        "Text": "Github Repo"
+      },
+      {
+        "cssClass": "linkedin",
+        "Link": "https://www.linkedin.com/in/anthony-baker-049898/",
+        "Text": "LinkedIn Profile"
+      }
+    ],
+    "fr": [
+      {
+        "cssClass": "resume",
+        "Link": "http://portfolio.deluxeluxury.com/cv_anthony_baker.pdf",
+        "Text": "CV en PDF"
+      },
+      {
+        "cssClass": "github",
+        "Link": "https://github.com/SuperFastCola",
+        "Text": "Repo Github"
+      },
+      {
+        "cssClass": "linkedin",
+        "Link": "https://www.linkedin.com/in/anthony-baker-049898/",
+        "Text": "Profil LinkedIn"
+      }
+    ]
+  },
+  "Labels": {
+    "role": {
+      "en": "Role",
+      "fr": "Mandat"
+    },
+    "description": {
+      "en": "Description",
+      "fr": "Description"
+    },
+    "tech": {
+      "en": "Technology",
+      "fr": "Technologie"
+    },
+    "projects": {
+      "en": "Projects",
+      "fr": "Projets"
+    }
+  },
+  "Sprites": [
+    {
+      "yCoor": [
+        0,
+        0
+      ],
+      "xCoor": [
+        [
+          0,
+          -166.5
+        ],
+        [
+          -167.5,
+          -333
+        ]
+      ],
+      "parent_element": "portfolio_header",
+      "dimensions": [
+        84,
+        140
+      ],
+      "position": [
+        0,
+        14
+      ],
+      "sprite_type": "character",
+      "restart": false,
+      "walk_speed": ".1s",
+      "sprite_id": "bouncer"
+    },
+    {
+      "yCoor": [
+        -141,
+        -141
+      ],
+      "xCoor": [
+        [
+          0,
+          -166.5
+        ],
+        [
+          -167.5,
+          -333
+        ]
+      ],
+      "parent_element": "portfolio_header",
+      "dimensions": [
+        84,
+        140
+      ],
+      "position": [
+        0,
+        16
+      ],
+      "sprite_type": "character",
+      "restart": false,
+      "walk_speed": ".08s",
+      "sprite_id": "girl"
+    },
+    {
+      "yCoor": [
+        -281,
+        -281
+      ],
+      "xCoor": [
+        [
+          0,
+          -166.5
+        ],
+        [
+          -167.5,
+          -333
+        ]
+      ],
+      "parent_element": "portfolio_header",
+      "dimensions": [
+        84,
+        140
+      ],
+      "position": [
+        0,
+        18
+      ],
+      "sprite_type": "character",
+      "restart": false,
+      "walk_speed": ".07s",
+      "sprite_id": "dude"
+    },
+    {
+      "yCoor": [
+        -421,
+        -421
+      ],
+      "xCoor": [
+        [
+          0,
+          -166.5
+        ],
+        [
+          -167.5,
+          -333
+        ]
+      ],
+      "parent_element": "portfolio_header",
+      "dimensions": [
+        84,
+        140
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "sprite_type": "character",
+      "restart": false,
+      "walk_speed": ".1s",
+      "sprite_id": "police"
+    },
+    {
+      "yCoor": [
+        -561,
+        -561
+      ],
+      "xCoor": [
+        [
+          0,
+          -166.5
+        ],
+        [
+          -167.5,
+          -333
+        ]
+      ],
+      "parent_element": "portfolio_header",
+      "dimensions": [
+        84,
+        140
+      ],
+      "position": [
+        0,
+        3
+      ],
+      "sprite_type": "character",
+      "restart": false,
+      "walk_speed": ".05s",
+      "sprite_id": "bird"
+    }
+  ],
+  "Projects": [
+    {
+      "Id": 1,
+      "Name": {
+        "en": "React/Redux and Spotify",
+        "fr": "React/Redux et Spotify"
+      },
+      "Description": {
+        "en": "Framework Exploration with Spotify API",
+        "fr": "Exploration ReaactJs avec API Spotify"
+      },
+      "Role": {
+        "en": "Web Design, Development and Deployment",
+        "fr": "Design d\u0027interface, d\u00E9veloppement et d\u00E9ploiement"
+      },
+      "Tech": {
+        "en": [
+          "Amazon Web Services",
+          "React JS",
+          "Redux",
+          "Webpack",
+          "HTML 5",
+          "Responsive CSS"
+        ],
+        "fr": [
+          "Amazon Web Services",
+          "React JS",
+          "Redux",
+          "Webpack",
+          "HTML 5",
+          "Responsive CSS"
+        ]
+      },
+      "Image": {
+        "en": [
+          {
+            "Order": 1,
+            "S": "react-s.jpg",
+            "M": "react-m.jpg",
+            "L": null,
+            "Xl": "react-xl.jpg"
+          }
+        ],
+        "fr": [
+          {
+            "Order": 0,
+            "S": null,
+            "M": null,
+            "L": null,
+            "Xl": "react-xl.jpg"
+          }
+        ]
+      },
+      "Url": {
+        "en": [
+          {
+            "Link": "http://reactredux.deluxeluxury.com/",
+            "Text": "View Project"
+          },
+          {
+            "Link": "https://github.com/SuperFastCola/tt-music-search/tree/master/app",
+            "Text": "Essential Code"
+          },
+          {
+            "Link": "https://github.com/SuperFastCola/tt-music-search/blob/master/app/sass/styles.scss",
+            "Text": "Essential SASS"
+          }
+        ],
+        "fr": [
+          {
+            "Link": "http://reactredux.deluxeluxury.com/",
+            "Text": "Regardez le projet"
+          },
+          {
+            "Link": "https://github.com/SuperFastCola/tt-music-search/tree/master/app",
+            "Text": "Code essentiel"
+          },
+          {
+            "Link": "https://github.com/SuperFastCola/tt-music-search/blob/master/app/sass/styles.scss",
+            "Text": "SASS essentiel"
+          }
+        ]
+      },
+      "Projid": "reactredux",
+      "Type": [
+        "design",
+        "front-end"
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": {
+        "en": "Sanders",
+        "fr": "Sanders"
+      },
+      "Description": {
+        "en": "Comic Book",
+        "fr": "Album de bande dessin\u00E9e"
+      },
+      "Role": {
+        "en": "Illustration",
+        "fr": "Illustration"
+      },
+      "Tech": {
+        "en": [],
+        "fr": []
+      },
+      "Image": {
+        "en": [
+          {
+            "Order": 1,
+            "S": "mister_sanders_v25.jpg",
+            "M": null,
+            "L": null,
+            "Xl": null
+          },
+          {
+            "Order": 2,
+            "S": "sanders-s.jpg",
+            "M": "sanders-m.jpg",
+            "L": "sanders-l.jpg",
+            "Xl": "sanders-xl.jpg"
+          }
+        ],
+        "fr": [
+          {
+            "Order": 1,
+            "S": "sanders-m.jpg",
+            "M": "sanders-xl.jpg",
+            "L": null,
+            "Xl": null
+          },
+          {
+            "Order": 2,
+            "S": "mister_sanders_v25.jpg",
+            "M": null,
+            "L": null,
+            "Xl": null
+          }
+        ]
+      },
+      "Url": {
+        "en": [
+          {
+            "Link": "http://portfolio.deluxeluxury.com/images/mister_sanders_v25.pdf",
+            "Text": "View Sample"
+          }
+        ],
+        "fr": [
+          {
+            "Link": "http://portfolio.deluxeluxury.com/images/mister_sanders_v25.pdf",
+            "Text": "Voir exemplaire"
+          }
+        ]
+      },
+      "Projid": "",
+      "Type": [
+        "illustrations"
+      ]
+    }
+  ]
+}

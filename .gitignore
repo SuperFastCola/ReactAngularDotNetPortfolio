@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/.vs
+/WebApplication1/bin
+/WebApplication1/obj
+/packages
+/WebApplication1/dld_react

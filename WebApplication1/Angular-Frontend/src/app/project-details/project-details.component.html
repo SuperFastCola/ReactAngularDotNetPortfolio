@@ -1,0 +1,17 @@
+<ng-container>
+    <div *ngIf="project">
+        <h2>{{project.name[language]}}</h2>
+    </div>
+    <section>
+        <form>
+            <ng-container *ngIf="project">
+                <app-input-field *ngFor="let key of inputKeys" [label]="key" [properties]="project" (modifiedProject)="updateProjectInComponent($event)"></app-input-field>
+                <app-input-field [label]="'TYPE'" [properties]="project" (modifiedProject)="updateProjectInComponent($event)"></app-input-field>
+            </ng-container>
+        </form>
+    </section>
+
+    <button (click)="updateProjectOnServer()" class=" bg-yellow-500">{{ 'UPDATE' | translate }}</button>
+
+</ng-container>
+

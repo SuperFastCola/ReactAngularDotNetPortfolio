@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500&display=swap');
+
+@layer base {
+    html {
+     font-weight: 300;
+    }
+
+    @for $i from 1 through 6 {
+        h#{$i}{
+            font-weight: 500;
+        }
+    }
+  }
+
+h2{
+    @apply text-2xl md:text-3xl;
+}
+
+h5{
+    @apply md:text-xl;
+}
+
+button{
+    @apply rounded bg-blue-500 px-2 py-1 font-medium text-white basis-1/6;
+}

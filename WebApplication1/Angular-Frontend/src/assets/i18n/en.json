@@ -1,0 +1,16 @@
+{
+    "HOME": "Home",
+    "EDIT": "Edit",
+    "DELETE":"Delete",
+    "UPDATE":"Update",
+    "EN":"English",
+    "FR":"French",
+    "FORM":{
+        "NAME":"Name",
+        "DESCRIPTION":"Description",
+        "ROLE":"Role",
+        "TYPE":"Type",
+        "LANGSUPPORT":"Language text not required"
+    }
+    
+}
